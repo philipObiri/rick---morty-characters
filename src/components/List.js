@@ -23,9 +23,24 @@ function List(){
 
     return (
        <div>
-        <h2>Characters</h2>
-        <Character/>
-        <Character/>
+        <h2 className='text-center my-2'>Characters</h2>
+       <div className='row'>
+       {
+        isLoading ? (
+            <div>Loading ......</div>
+        ) :
+        (
+            characters.map((character)=>(
+                <Character
+                key = {character.id}
+                name = {character.name}
+                origin = {character.origin}
+                image = {character.image}
+                />
+            ))
+        )
+       }
+       </div>
        </div>
     )
 }

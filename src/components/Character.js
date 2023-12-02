@@ -1,8 +1,12 @@
-function Character(){
-    return <div>
-        <h3>{character.name}</h3>
-        <img src={character.image} alt={character.name} width='300'/>
-        <p>{`Origin: ${character.origin && character.origin.name}`}</p>
+function Character({name,image, origin}){
+    return <div className="col-3">
+       <div className="card">
+      <div className="card-body">
+      <h3 className="card-title">{name}</h3>
+        <img src={image} alt={name} width='300' className="card-img-top"/>
+        <p>{`Origin: ${origin && origin.name}`}</p>
+      </div>
+       </div>
     </div>
 };
 
