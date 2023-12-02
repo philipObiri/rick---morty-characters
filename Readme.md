@@ -21,4 +21,4 @@ I also did some basic styling with pre written classes from React Bootstrap.
 
 
 
-<img src="demo.png">
+<img src="demo.png" width="900px">
