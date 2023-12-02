@@ -1,5 +1,9 @@
 ## Rick and Morty Characters
 ### This is a basic react page that retrieves and renders data about characters in the popular Rick and Morty Series :
+
+URL for data fetching : https://rickandmortyapi.com/documentation/#rest
+<br>
+
 In this sample project I learnt how to create a basic React application 
 from scratch using React, ReactDOM , Webpack, Babel, ESLint and Bootstrap.
 
@@ -14,7 +18,7 @@ Then I learnt how to structure my react application :
 Components are normally written in seperate files and are kept in a seperate folder called "components" in the src folder.
 
 
-URL for data fetching : https://rickandmortyapi.com/documentation/#rest
+
 I learnt about state management and data fetching with useState and useEffect Hook from react. 
 
 I also did some basic styling with pre written classes from React Bootstrap. 
